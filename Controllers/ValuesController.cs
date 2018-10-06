@@ -14,7 +14,7 @@ namespace testwebapi1.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new object[] { new { id = "1"}, new {id = "2"} };
         }
 
         // GET api/values/5
