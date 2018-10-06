@@ -16,7 +16,7 @@ namespace testwebapi1.Controllers
         {
             return new object[] { 
                 new { id = "1", name="Hello" }, 
-                new { id = "2", name="World" }
+                new { id = "2", name="World!" }
             };
         }
 
