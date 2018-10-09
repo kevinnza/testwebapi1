@@ -15,8 +15,8 @@ namespace testwebapi1.Controllers
         public ActionResult<IEnumerable<object>> Get()
         {
             return new object[] { 
-                new { id = "1", name="John" }, 
-                new { id = "2", name="Dough-" }
+                new { id = "1", name="Joe" }, 
+                new { id = "2", name="Bloggs" }
             };
         }
 
